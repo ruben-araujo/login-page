@@ -1,8 +1,7 @@
 .conteudo {
-    padding: auto;
-    height: auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
 .box-login {
@@ -38,4 +37,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
