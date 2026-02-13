@@ -1,0 +1,41 @@
+.conteudo {
+    padding: auto;
+    height: auto;
+    align-items: center;
+
+}
+
+.box-login {
+
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.box {
+
+    border-radius: 10px;
+
+}
+
+.login-card {
+    box-sizing:border-box;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background: linear-gradient(to right, #484949, #56bebe);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background: linear-gradient(to right, #2bd3df, #feffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
