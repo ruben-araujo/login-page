@@ -3,14 +3,11 @@
 <head>
 
 	<meta charset="UTF-8">
-	<meta name = "viewport" content="width-device-width, initial-scale=1.0">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
 	<title> Login </title>
     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-	<script>
-		
-	</script>
+	<script src="script.js"></script>
 </head>
 
 <body>
@@ -23,10 +20,11 @@
 		</div>
 
 	        <form class="box-login">
-		        <input type="text" placeholder= "Usuário">
-		        <input type="password" placeholder="Senha">
+		        <input type="text" id="usuario" placeholder= "Usuário">
+		        <input type="password" id="senha" placeholder="Senha">
 		        <input type="checkbox">
-				<button type="submit" id="botao">Login</button>
+				<button type="button" onclick="logar()" id="botao" >Login</button>
+				<p id="mensagem"></p>
 			</form>
 		
 		    
