@@ -15,14 +15,17 @@
     <section class="login-card">
 
 	    <div class="conteudo">
-			<h2>Bem Vindo</h2>
+			<h2>Bem-vindo(a)</h2>
 	    <i class="fa-solid fa-user"></i>
 		</div>
 
 	        <form class="box-login">
 		        <input type="text" id="usuario" placeholder= "Usuário">
 		        <input type="password" id="senha" placeholder="Senha">
-		        <input type="checkbox">
+				<div class="checkbox-wrapper">
+		        <input type="checkbox" id="lembrar">
+				<label for="lembrar">Lembrar de mim</label>
+				</div>
 				<button type="button" onclick="logar()" id="botao" >Login</button>
 				<p id="mensagem"></p>
 			</form>

@@ -82,3 +82,29 @@ input {
     font-size: 50px;
     margin-top: 30px;
 }
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px 0;
+    color: white;
+    font-size: 14px;
+}
+
+#lembrar {
+    cursor: pointer;
+    accent-color: #20b2aa;
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox-wrapper label {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.checkbox-wrapper label:hover {
+    color: #40e0d0;
+}
